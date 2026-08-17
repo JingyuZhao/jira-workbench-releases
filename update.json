@@ -1,7 +1,7 @@
 {
   "version": "1.0.25",
   "build": 20260817121018,
-  "releaseNotes": "AHS\u5de5\u4f5c\u53f0 v1.0.25\n\uff08\u65e0\u5bc6\u7801\u5b89\u88c5\u5305\uff0c\u53cc\u51fb\u5373\u53ef\u5b89\u88c5\uff09\n\n\u66f4\u65b0\u5185\u5bb9\uff1a\nad359c7 fix(crane): \u521b\u5efa/\u7f16\u8f91\u53d1\u5e03\u5355\u5206\u652f\u6539\u7528 Crane \u63a5\u53e3 /api/v1/apps/{name}/branches",
+  "releaseNotes": "AHS工作台 v1.0.25\n（无密码安装包，双击即可安装）\n\n更新内容：\n\n【修复】\n- 修复创建/编辑发布单时部分应用选择后获取不到分支的问题：分支数据源由 GitLab 改为 Crane 后端接口（GET /api/v1/apps/{应用名}/branches），按当前环境区分 UAT/Prod，应用名特殊字符自动 URL 编码，并带 5 分钟缓存，减少重复请求",
   "downloadURL": "https://github.com/JingyuZhao/jira-workbench-releases/releases/download/v1.0.25/JiraWorkbench-1.0.25.dmg",
   "minimumSystemVersion": "14.0"
 }
