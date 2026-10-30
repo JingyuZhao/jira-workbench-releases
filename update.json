@@ -1,7 +1,7 @@
 {
-  "version": "1.0.44",
-  "build": 20261022135030,
-  "releaseNotes": "# AHS 工作台 v1.0.44\n\n- 完善“我的工作”、跨日期任务与独立 Bug / MR 讨论，收起窗口后可继续处理并返回原会话\n- 支持显式委托 Agent，保存工作目标、完成条件和限制，并提供执行回执、状态核实与恢复入口\n- Crane 支持 iOS / Android App 直接打包，增加分应用打包记录、日志、安装链接复制与二维码\n- 统一 Crane / FED 构建跟踪，支持完成通知和跳转到对应构建任务\n- 优化对话输入与滚动、粘贴附件、代码行号定位、宽屏布局、主题配色与需求详情层级\n- 修复会话已连接后结束任务仍被拦截的问题；修复大日志加载卡死，超长日志显示末尾并保留全文复制\n\nApp 与 ahs CLI 同步更新至 1.0.44。支持 macOS 14 及以上，提供 Apple Silicon（arm64）安装包，沿用临时签名。\n",
-  "downloadURL": "https://github.com/JingyuZhao/jira-workbench-releases/releases/download/v1.0.44/JiraWorkbench-1.0.44.dmg",
+  "version": "1.0.45",
+  "build": 20261030174705,
+  "releaseNotes": "# AHS 工作台 v1.0.45\n\n- Agent / MCP 与 ahs CLI 支持 Crane 客户端应用查询、打包配置、构建记录、日志，以及直接打包和取消构建\n- 工作技能按真实应用平台区分 Crane 客户端与 FED 构建，Crane App 直接打包，沿用工作台统一构建跟踪\n- 修复 Crane 发布批次查看部署记录时报日期参数缺失的问题，同时修复按部署 ID 回读\n- 修复“执行中的构建”详情窗口右上角关闭按钮被拖拽区域遮挡的问题\n\nApp 与 ahs CLI 同步更新至 1.0.45。使用新的 MCP / CLI 能力前，请退出旧版工作台并启动新版，再重新连接 MCP。\n\n支持 macOS 14 及以上，提供 Apple Silicon（arm64）安装包，沿用临时签名。\n",
+  "downloadURL": "https://github.com/JingyuZhao/jira-workbench-releases/releases/download/v1.0.45/JiraWorkbench-1.0.45.dmg",
   "minimumSystemVersion": "14.0"
 }
